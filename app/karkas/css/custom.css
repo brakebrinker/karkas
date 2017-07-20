@@ -1,0 +1,35 @@
+.contacts .contacts_block {
+font-size: 24px;
+}
+
+.projects .caption.mark {
+font-size: 20px;
+}
+
+.projects .caption {
+font-size: 18px;
+}
+
+element.style {
+  overflow: visible;
+  width: 600px;
+  height: 450px;
+}
+
+section.main {
+	min-height:425px;
+}
+
+section.main h1 {
+	background: rgba(84,13,0,.70);
+	text-align: left;
+}
+
+section.main p {
+	background: rgba(0,0,0,.4);
+	text-align: left;
+}
+
+section#modals .project-type .tab-content .content {
+	height: 242px;
+}

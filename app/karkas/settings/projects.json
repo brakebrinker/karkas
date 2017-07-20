@@ -1,0 +1,106 @@
+[
+    {
+        "title" : "Проект «Валерия»",
+        "size" : "8,15м x 8,2м",
+        "area": "116 м2",
+        "price": "743 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Valeriya"
+    },
+    {
+        "title" : "Проект «Мария»",
+        "size" : "8,4м x 8,75м",
+        "area": "128,8 м2",
+        "price": "889 600",
+        "goal": "empty",
+        "img_path": "../images/projects/Mariya"
+    },
+    {
+        "title" : "Проект «Екатерина»",
+        "size" : "9м x6,2м",
+        "area": "100,6 м2",
+        "price": "751 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Ekaterina"
+    },
+    {
+        "title" : "Проект «Ольга»",
+        "size" : "10,15м x 14,7м",
+        "area": "198 м2",
+        "price": "766 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Olga"
+    },
+    {
+        "title" : "Проект «Светлана»",
+        "size" : "14м x 11м",
+        "area": " 114,4 м2",
+        "price": "844 800",
+        "goal": "empty",
+        "img_path": "../images/projects/Svetlana"
+    },
+    {
+        "title" : "Проект «Юлия»",
+        "size" : "10м x 8м",
+        "area": "118,2 м2",
+        "price": "910 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Julia"
+    },
+    {
+        "title" : "Проект «Виктория»",
+        "size" : "10,2м x 6,2м",
+        "area": "96,8 м2",
+        "price": "975 600",
+        "goal": "empty",
+        "img_path": "../images/projects/Victoria"
+    },
+    {
+        "title" : "Проект «Ирина»",
+        "size" : "7,6м x 7,6м",
+        "area": "103,7 м2",
+        "price": "962 900",
+        "goal": "empty",
+        "img_path": "../images/projects/Irina"
+    },
+    {
+        "title" : "Проект «Татьяна»",
+        "size" : "8,2м x 11м",
+        "area": "105,9 м2",
+        "price": "890 300",
+        "goal": "empty",
+        "img_path": "../images/projects/Tatiana"
+    },
+    {
+        "title" : "Проект «Надежда»",
+        "size" : "8,5м x 7,6м",
+        "area": "99,3 м2",
+        "price": "788 100",
+        "goal": "empty",
+        "img_path": "../images/projects/Nadezhda"
+    },
+    {
+        "title" : "Проект «Елена»",
+        "size" : "11,7м x 10,5м",
+        "area": "146 м2",
+        "price": "982 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Elena"
+    },
+    {
+        "title" : "Проект «Борис»",
+        "size" : "11,15м x 12,15м",
+        "area": "199,5 м2",
+        "price": "1 040 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Boris"
+    },
+    {
+        "title" : "Проект «Дмитрий»",
+        "size" : "9,05м x 12,35м",
+        "area": "151,7 м2",
+        "price": "1 402 000",
+        "goal": "empty",
+        "img_path": "../images/projects/Dmitriy"
+    }
+]

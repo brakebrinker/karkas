@@ -1,0 +1,45 @@
+section:not(.menu),
+header,
+footer {
+    display: none;
+}
+
+@media (max-width:1280px) {
+    body {
+        min-width: auto; 
+    }
+}
+@media (max-width:1200px) {
+/*  .wrap {
+        width: 1170px;
+    }*/
+}
+@media (max-width:992px) {
+/*  .wrap {
+        width: 970px;
+    }*/
+    .menu .wrap {
+        width: 750px;
+    }
+    .page {
+        min-width: auto;
+    }
+
+}
+@media (max-width:920px) {
+    .menu .phone {
+        right: 10px;
+        font-size: 17px;
+    }
+    .menu .wrap {
+        width: 100%;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 12px;
+    }
+}
+@media (max-width:768px) {
+/*  .wrap {
+        width: 750px;
+    }*/
+}
