@@ -1,4 +1,4 @@
-section:not(.options) {
+section:not(.contacts) {
     display: none;
 }
 .page, .projects .slider, body.modal-open, section.main {
@@ -717,6 +717,65 @@ section:not(.options) {
     section#gallery .photos .photo {
         width: 145px;
     }
+
+    section.options .wrap {
+        width: 500px;
+    }
+    section.options .d1 {
+        padding: 10px 0 0 200px;
+    }
+    section.options .d1 .dream_img {
+        left: 7px;
+    }
+    section.options .d2 .dream_img {
+        left: 268px;
+    }
+    section.options .d2 {
+        padding: 10px 0 0 30px;
+    }
+
+    section.video .wrap {
+        width: 500px;
+        background: none;
+        height: 300px;
+    }
+
+    section.reviews .wrap {
+        width: 500px;
+    }
+    .reviews .review {
+        margin: 0 10px 40px;
+        width: 120px;
+        height: 162px;
+    }
+    .reviews .review .zoom {
+        width: 140px;
+        height: 185px;
+        left: -6px;
+        top: -6px;
+    }
+    .reviews .bx-wrapper .bx-controls-direction a {
+        top: 85px;
+    }
+
+    .contacts .contacts_block {
+        font-size: 18px;
+        line-height: 18px;
+        border: 3px solid #f69b6d;
+        background: #fff;
+        width: 192px;
+        height: auto;
+        padding: 14px 0 14px 20px;
+    }
+    .contacts .contacts_block span {
+        display: block;
+        font-size: 26px;
+        font-family: din_regular;
+        margin-bottom: 19px;
+    }
+    .contacts .contacts_block {
+        font-size: 17px;
+    }
 }
 @media (max-width:580px) {
     .main .owl-carousel .owl-item img {
@@ -844,6 +903,66 @@ section:not(.options) {
         font-size: 32px;
         line-height: 32px;
     }
+
+    section.options .wrap {
+        width: 300px;
+    }
+    section.options .d1 {
+        padding: 39px 0 0 120px;
+        margin-bottom: 13px;
+    }
+    section.options .dream_one span {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    section.options .dream_one p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    section.options .caption {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 67px;
+    }
+    section.options .d2 {
+        padding: 39px 0 0 17px;
+    }
+    section.options .d2 .dream_img {
+        left: 148px;
+        top: -50px;
+    }
+    section.options .d1 .dream_img {
+        left: 7px;
+        top: -49px;
+    }
+    section.options .dream_one.d2 p {
+        font-size: 14px;
+        line-height: 14px;
+        max-width: 60%;
+    }
+    section.video .wrap {
+        width: 300px;
+        height: 190px;
+    }
+
+    section.reviews .wrap {
+        width: 300px;
+    }
+    .reviews .review {
+        margin: 0 64px 14px;
+        width: 120px;
+        height: 162px;
+    }
+    .reviews .bx-wrapper .bx-controls-direction a {
+        top: 267px;
+    }
+    .reviews .bx-wrapper .bx-prev {
+        left: 0;
+    }
+    .reviews .bx-wrapper .bx-next {
+        right: 0;
+    }
 }
 
 @media (max-width:480px) {
@@ -942,5 +1061,9 @@ section:not(.options) {
     }
     header .top_phone span {
          width: auto; 
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 26px;
     }
 }
