@@ -1,4 +1,4 @@
-section:not(.gallery) {
+section:not(.menu) {
     display: none;
 }
 .page, .projects .slider, body.modal-open, section.main {
@@ -340,11 +340,18 @@ section:not(.gallery) {
     header .wrap, 
     footer .wrap,
     section.main .wrap,
-    section.order .wrap  {
+    section.order .wrap,
+    section.options .wrap {
         width: 750px;
     }
     section#gallery .wrap {
         width: 630px;
+    }
+    section.video .wrap {
+        width: 710px;
+    }
+    section.reviews .wrap {
+        width: 650px;
     }
     .page {
         min-width: auto;
@@ -465,6 +472,43 @@ section:not(.gallery) {
         width: 155px;
     }
 
+    section.options {
+        height: 692px;
+        background-size: cover;
+    }
+    section.options .dream_img {
+        width: 40%;
+    }
+    section.options .d1 {
+        padding: 10px 0 0 358px;
+        width: 100%;
+        box-sizing: border-box;
+        background-size: contain;
+    }
+    section.options .d1 .dream_img {
+        background-size: contain;
+    }
+    section.options .d2 {
+        padding: 10px 0 0 200px;
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+        background-size: contain;
+    }
+    section.options .d2 .dream_img {
+        left: 412px;
+        background-size: contain;
+    }
+
+    section.video .wrap {
+        box-sizing: border-box;
+        background-size: 657px;
+    }
+
+    .reviews .review {
+        margin: 0 10px 40px;
+    }
+
 }
 @media (max-width:920px) {
     .menu .phone {
@@ -485,4 +529,79 @@ section:not(.gallery) {
 /*  .wrap {
         width: 750px;
     }*/
+    .wrap {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    header .wrap,
+    footer .wrap {
+        width: 100%;
+    }
+    .menu .phone {
+        display: none;
+    }
+    .menu .wrap {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .menu {
+        height: auto;
+    }
+
+    header .logo {
+        font-size: 18px;
+        max-width: 300px;
+        padding: 16px 0 0 83px;
+    }
+    header .top_phone {
+        margin: 8px 0px 0 0;
+    }
+    header .top_phone span, header .top_phone a.mc {
+        display: block;
+        clear: both;
+        float: right;
+    }
+    header .top_phone span {
+        width: 100%;
+    }
+
+    footer .social {
+        float: right;
+        text-align: right;
+    }
+    footer .social img {
+        width: 70%;
+    }
+    footer .footer_phone {
+        width: 50%;
+        font-size: 21px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width:480px) {
+    header .top_phone {
+        font-size: 18px;
+    }
+    header .top_phone a.mc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:420px) {
+    .menu .wrap>a {
+        display: block;
+        width: 100%;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    footer .footer_phone {
+        width: 70%;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    footer .footer_phone a.mc {
+        font-size: 16px;
+    }
 }
