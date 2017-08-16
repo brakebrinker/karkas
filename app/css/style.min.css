@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.slicknav_menu {
+	display:none
+}
 .bws_reload li,ol,ul {
 	list-style:none
 }
@@ -495,7 +498,7 @@ body {
 	font-family:din_light;
 	position:relative;
 	background-color:#fff;
-	min-width:1280px
+	/*min-width:1280px*/
 }
 .clear,.wrap:after {
 	height:0;
@@ -553,11 +556,11 @@ h2,textarea {
 }
 .page {
 	width:100%;
-	max-width:1400px;
-	min-width:960px
+	max-width:100%;
+	/*min-width:960px*/
 }
 .wrap {
-	width:960px;
+	max-width:960px;
 	padding:0;
 	z-index:0
 }
@@ -1021,7 +1024,7 @@ section.options .d2 .dream_img {
 	margin-top:-4px
 }
 .projects .arrows {
-	width:1141px;
+	max-width:1141px;
 	margin:0 auto;
 	position:relative
 }
@@ -1111,7 +1114,7 @@ section.options .d2 .dream_img {
 	top:0
 }
 .projects .controls {
-	width:960px;
+	max-width:960px;
 	position:relative;
 	margin:-6px auto 0
 }
@@ -1975,7 +1978,7 @@ footer .footer_phone a.mc:hover,footer .social a:hover,footer a.policy:hover {
 	opacity:.5
 }
 .contacts {
-	height:415px
+	height:auto;
 }
 .contacts .contacts_block {
 	width:300px;
